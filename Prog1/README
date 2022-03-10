@@ -1,0 +1,30 @@
+Jarrett Nobles
+CSC205
+DUE: 2-9-22
+
+Algorithm Analysis
+
+Steps:
+1. Created the main method
+	A: Declared the 2D Array
+	B: Declared the BitSet (NumMatch- 76)
+	C: Call the fillCard method
+	D: Call the printCard method
+	E: Call the playGame method
+2. The fillCard method: (public void)
+	A: Inputs integers from the external file 
+	B: Uses the 2D array 
+3.The printCard method: (public void)
+	A: Displays the word BINGO
+	B: Creates the bingo card
+	C: will also display an X if a number has been marked
+4.Check for win method
+	A: Checks for vertical, diagonal, and horizontal wins
+	B: Returns 1,2, or 3 based on win type
+5. Play Game method
+	A: The game is ran from this method
+6.Mark Card Method
+	A: If a number on the card is picked, it is set to 0 and it will turn that 0 into an X in the print card method
+
+7.Pick Random
+	A: Returns a random number for the game
